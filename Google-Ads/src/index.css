@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --brand: 79 70 229; /* indigo-600 */
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
+    "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+/* Better default link focus */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid rgb(var(--brand));
+  outline-offset: 2px;
+}
+
